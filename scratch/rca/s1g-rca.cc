@@ -1156,6 +1156,7 @@ void PhyStateTrace(std::string context, Time start, Time duration,
 }
 
 int main(int argc, char *argv[]) {
+	
 	 LogComponentEnable ("UdpServer", LOG_INFO);
      //LogComponentEnable ("UdpClient", LOG_INFO);
 	 //LogComponentEnable ("UdpEchoServerApplication", LOG_INFO);
