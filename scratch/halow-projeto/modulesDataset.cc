@@ -136,7 +136,7 @@ void HalowExperiment::ConfigureApplications() {
 
 void HalowExperiment::Run() {
     m_apNode.Create (1);
-    m_staNodes.Create (2);
+    m_staNodes.Create (m_config.Nsta);
 
     ConfigureMobility();
     ConfigureWifi();
