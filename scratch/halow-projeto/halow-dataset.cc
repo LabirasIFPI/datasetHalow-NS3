@@ -117,7 +117,6 @@ int main (int argc, char *argv[])
     
     // Lê as regras de janela estrita e joga na memória da config
     config.rps = configureRAW(config.rps, config.RAWConfigFile, config);
-    config.Nsta = config.NRawSta;
     
     // Estrutura as páginas (Slicing) exigidas pela placa HaLow
     config.pageS.SetPageindex (config.pageIndex);
